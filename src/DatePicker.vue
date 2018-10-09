@@ -362,8 +362,6 @@
         },
 
         created () {
-            console.log(this.color);
-            console.log(this.weekFormat);
             this.hideBodyOverflow(true);
             this.setDate();
             document.addEventListener('keydown', this.escapePressCallback);
