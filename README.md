@@ -1,7 +1,7 @@
 # Vue Date Picker
 
 A material design date picker component for Vue. 
-Built on top of [vue-md-date-picker]() as the original package
+Built on top of [vue-md-date-picker](https://github.com/ridewn/vue-date-picker) as the original package
 is, unfortunately, not in development for quite a while now.
 The package now accepts the translations and there's option to change
 Sunday-to-Saturday to Monday-to-Sunday

@@ -1,14 +1,14 @@
 {
-  "name": "vue-material-date-picker",
+  "name": "vue-pick-a-date",
   "version": "1.0.0",
   "description": "A material design date picker component for Vue. Built on top of vue-md-date-picker",
-  "main": "dist/vue-material-date-picker.js",
+  "main": "dist/vue-pick-a-date.js",
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flyrell/vue-material-date-picker.git"
+    "url": "git+https://github.com/flyrell/vue-pick-a-date.git"
   },
   "keywords": [
     "vue",
@@ -25,9 +25,9 @@
   "author": "Dawid Zbiński",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/flyrell/vue-material-date-picker/issues"
+    "url": "https://github.com/flyrell/vue-pick-a-date/issues"
   },
-  "homepage": "https://github.com/flyrell/vue-material-date-picker#readme",
+  "homepage": "https://github.com/flyrell/vue-pick-a-date#readme",
   "devDependencies": {
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
