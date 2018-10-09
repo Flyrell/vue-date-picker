@@ -1,4 +1,4 @@
-# Vue Date Picker
+# Vue Pick a Date
 
 A material design date picker component for Vue. 
 Built on top of [vue-md-date-picker](https://github.com/ridewn/vue-date-picker) as the original package
@@ -15,14 +15,23 @@ Sunday-to-Saturday to Monday-to-Sunday
 
 ## Installing
 
-Using **npm**: `npm install vue-material-date-picker`
+Using **npm**: `npm install vue-pick-a-date`
 <br>
-Using **yarn**: `yarn add vue-material-date-picker`
+Using **yarn**: `yarn add vue-pick-a-date`
 
 In order to use the plugin after installation you need to import it.
 
+```javascript
+import DatePicker from 'vue-pick-a-date'
 ```
-import DatePicker from 'vue-material-date-picker'
+
+You can also install vue-pick-a-date globally:
+
+```javascript
+import Vue from 'vue';
+import DatePicker from 'vue-pick-a-date';
+
+Vue.use(DatePicker);
 ```
 
 ## Examples
