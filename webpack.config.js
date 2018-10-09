@@ -44,7 +44,7 @@ module.exports = [
     merge(commonConfig, {
         entry: path.resolve(__dirname + '/src/plugin.js'),
         output: {
-            filename: 'vue-material-date-picker.min.js',
+            filename: 'vue-pick-a-date.min.js',
             libraryTarget: 'window',
             library: 'DatePicker',
         }
@@ -53,9 +53,9 @@ module.exports = [
     merge(commonConfig, {
         entry: path.resolve(__dirname + '/src/DatePicker.vue'),
         output: {
-            filename: 'vue-material-date-picker.js',
+            filename: 'vue-pick-a-date.js',
             libraryTarget: 'umd',
-            library: 'vue-material-date-picker',
+            library: 'vue-pick-a-date',
             umdNamedDefine: true
         }
     })
