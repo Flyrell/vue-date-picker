@@ -276,7 +276,7 @@
                 if (!this.max) return true;
                 const maxYear = this.maxDate.getFullYear();
                 const maxMonth = this.maxDate.getMonth() - 1;
-                return maxYear !== this.currentYear || maxMonth - 1 !== this.currentMonth;
+                return maxYear !== this.currentYear || maxMonth !== this.currentMonth;
             },
 
             /**
